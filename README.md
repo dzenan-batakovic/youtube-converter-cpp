@@ -18,7 +18,7 @@ Ova C++ aplikacija omogućuje koristicima Windows operacijskog sustava za brzo i
 * **Pakiranje:** Inno Setup Compiler
 
 # Ostalo
-* Aplikacija je napisana u engleskom jeziku, a u budućim verzijama to će biti ispravljeno na odabir korisnika.
+* Aplikacija je napisana u slovenskom jeziku, a u budućim verzijama to će biti ispravljeno na odabir korisnika.
 
 
 
