@@ -23,12 +23,13 @@ Ova C++ aplikacija omogućuje koristicima Windows operacijskog sustava za brzo i
 
 
 ## Kako Pokrenuti Projekt
-Da biste pokrenuli projekat lokalno, potrebno je imati instaliran C++ kompajler (poput MinGW/GCC) te 'yt-dlp' i 'ffmpeg' binarnosti u putanji sustava (same file).
+Da biste pokrenuli projekat lokalno, potrebno je imati instaliran C++ kompajler (poput MinGW/GCC) te 'yt-dlp' i 'ffmpeg' binarnosti u putanji sustava (same file). Bez kompajlera nećete moći kod pretvoriti u .exe (executable).
 
 # Kloniranje Repozitorija
-git clone "https://github.com/dzenan-batakovic/youtube-converter-cpp.git"
+git clone https://github.com/dzenan-batakovic/youtube-converter-cpp.git
 
 # Ulazak u mapu
 cd youtube-converter-cpp
 
+# Kompajler komanda
 g++ main.cpp converter.cpp -o "YT Converter.exe" -static -static-libgcc -static-libstdc++ -lcomdlg32 -lwininet
